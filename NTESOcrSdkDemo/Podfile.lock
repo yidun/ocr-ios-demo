@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
+  - WHToast (0.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.0)
+  - Masonry (~> 1.0.2)
+  - WHToast
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+    - WHToast
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
+
+PODFILE CHECKSUM: d22ad6cadee6665ed6b23d741a668be9a84b008b
+
+COCOAPODS: 1.10.1
