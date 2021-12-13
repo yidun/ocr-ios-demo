@@ -15,10 +15,6 @@
 		CA4F37012574E72300BD2F12 /* NTESBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4F37002574E72300BD2F12 /* NTESBaseController.m */; };
 		CA5BB002257745730015D45F /* NTESIdentifyCardNetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5BB001257745730015D45F /* NTESIdentifyCardNetworkAdapter.m */; };
 		CA5BB00C257762400015D45F /* NTESIDCardMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5BB00B257762400015D45F /* NTESIDCardMessageModel.m */; };
-		CA667BA625676BE100446A92 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA667BA525676BE100446A92 /* AssetsLibrary.framework */; };
-		CA667BA825676BF000446A92 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA667BA725676BF000446A92 /* AVFoundation.framework */; };
-		CA667BAD25676C0500446A92 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA667BAC25676C0500446A92 /* CoreMedia.framework */; };
-		CA667BAF25676C0A00446A92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA667BAE25676C0A00446A92 /* CoreData.framework */; };
 		CA7702982575E4BE002417F3 /* NTESToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7702972575E4BE002417F3 /* NTESToastView.m */; };
 		CA7702A02575E9DB002417F3 /* NTESAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77029F2575E9DB002417F3 /* NTESAppInfo.m */; };
 		CA7C38F725663FFC00DBF515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C38F625663FFC00DBF515 /* AppDelegate.m */; };
@@ -30,12 +26,6 @@
 		CA7C39122566400000DBF515 /* NTESOcrSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C39112566400000DBF515 /* NTESOcrSdkDemoTests.m */; };
 		CA7C391D2566400000DBF515 /* NTESOcrSdkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C391C2566400000DBF515 /* NTESOcrSdkDemoUITests.m */; };
 		CA7C398D25664D2200DBF515 /* NTESOcrMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C398C25664D2200DBF515 /* NTESOcrMainController.m */; };
-		CAB2B85B26CDF80000FE3149 /* NTESOcrDetect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAB2B85A26CDF80000FE3149 /* NTESOcrDetect.bundle */; };
-		CAB2B86126CDF86A00FE3149 /* NTESBaseComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB2B85C26CDF86900FE3149 /* NTESBaseComponent.framework */; };
-		CAB2B86326CDF86A00FE3149 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB2B85D26CDF86A00FE3149 /* opencv2.framework */; };
-		CAB2B86526CDF86A00FE3149 /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB2B85E26CDF86A00FE3149 /* MNN.framework */; };
-		CAB2B86726CDF86A00FE3149 /* NTESOcrARDetect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB2B85F26CDF86A00FE3149 /* NTESOcrARDetect.framework */; };
-		CAB2B86926CDF86A00FE3149 /* NTESOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB2B86026CDF86A00FE3149 /* NTESOcrSdk.framework */; };
 		CAEC22B82576148500748CBA /* NTESOcrDetectResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC22B72576148500748CBA /* NTESOcrDetectResultController.m */; };
 /* End PBXBuildFile section */
 
@@ -75,10 +65,6 @@
 		CA5BB001257745730015D45F /* NTESIdentifyCardNetworkAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESIdentifyCardNetworkAdapter.m; sourceTree = "<group>"; };
 		CA5BB00A257762400015D45F /* NTESIDCardMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESIDCardMessageModel.h; sourceTree = "<group>"; };
 		CA5BB00B257762400015D45F /* NTESIDCardMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESIDCardMessageModel.m; sourceTree = "<group>"; };
-		CA667BA525676BE100446A92 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		CA667BA725676BF000446A92 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		CA667BAC25676C0500446A92 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		CA667BAE25676C0A00446A92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CA7702962575E4BE002417F3 /* NTESToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESToastView.h; sourceTree = "<group>"; };
 		CA7702972575E4BE002417F3 /* NTESToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESToastView.m; sourceTree = "<group>"; };
 		CA77029E2575E9DB002417F3 /* NTESAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESAppInfo.h; sourceTree = "<group>"; };
@@ -102,12 +88,6 @@
 		CA7C391E2566400000DBF515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA7C398B25664D2200DBF515 /* NTESOcrMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESOcrMainController.h; sourceTree = "<group>"; };
 		CA7C398C25664D2200DBF515 /* NTESOcrMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESOcrMainController.m; sourceTree = "<group>"; };
-		CAB2B85A26CDF80000FE3149 /* NTESOcrDetect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NTESOcrDetect.bundle; sourceTree = "<group>"; };
-		CAB2B85C26CDF86900FE3149 /* NTESBaseComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESBaseComponent.framework; path = SDK/NTESBaseComponent.framework; sourceTree = "<group>"; };
-		CAB2B85D26CDF86A00FE3149 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = SDK/opencv2.framework; sourceTree = "<group>"; };
-		CAB2B85E26CDF86A00FE3149 /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MNN.framework; path = SDK/MNN.framework; sourceTree = "<group>"; };
-		CAB2B85F26CDF86A00FE3149 /* NTESOcrARDetect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESOcrARDetect.framework; path = SDK/NTESOcrARDetect.framework; sourceTree = "<group>"; };
-		CAB2B86026CDF86A00FE3149 /* NTESOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESOcrSdk.framework; path = SDK/NTESOcrSdk.framework; sourceTree = "<group>"; };
 		CAD1049B256669B700109AA6 /* NTESOcrDemoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESOcrDemoDefines.h; sourceTree = "<group>"; };
 		CAEC22B62576148500748CBA /* NTESOcrDetectResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESOcrDetectResultController.h; sourceTree = "<group>"; };
 		CAEC22B72576148500748CBA /* NTESOcrDetectResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESOcrDetectResultController.m; sourceTree = "<group>"; };
@@ -118,16 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB2B86926CDF86A00FE3149 /* NTESOcrSdk.framework in Frameworks */,
-				CAB2B86726CDF86A00FE3149 /* NTESOcrARDetect.framework in Frameworks */,
-				CA667BAD25676C0500446A92 /* CoreMedia.framework in Frameworks */,
-				CAB2B86326CDF86A00FE3149 /* opencv2.framework in Frameworks */,
-				CAB2B86526CDF86A00FE3149 /* MNN.framework in Frameworks */,
-				CA667BAF25676C0A00446A92 /* CoreData.framework in Frameworks */,
-				CA667BA825676BF000446A92 /* AVFoundation.framework in Frameworks */,
 				01FCBF68822E26E98EB4C071 /* libPods-NTESOcrSdkDemo.a in Frameworks */,
-				CA667BA625676BE100446A92 /* AssetsLibrary.framework in Frameworks */,
-				CAB2B86126CDF86A00FE3149 /* NTESBaseComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +171,6 @@
 		CA7C38E925663FFC00DBF515 = {
 			isa = PBXGroup;
 			children = (
-				CAB2B85A26CDF80000FE3149 /* NTESOcrDetect.bundle */,
 				CA7C38F425663FFC00DBF515 /* NTESOcrSdkDemo */,
 				CA7C39102566400000DBF515 /* NTESOcrSdkDemoTests */,
 				CA7C391B2566400000DBF515 /* NTESOcrSdkDemoUITests */,
@@ -268,15 +238,6 @@
 		CA7C39682566491800DBF515 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAB2B85E26CDF86A00FE3149 /* MNN.framework */,
-				CAB2B85C26CDF86900FE3149 /* NTESBaseComponent.framework */,
-				CAB2B85F26CDF86A00FE3149 /* NTESOcrARDetect.framework */,
-				CAB2B86026CDF86A00FE3149 /* NTESOcrSdk.framework */,
-				CAB2B85D26CDF86A00FE3149 /* opencv2.framework */,
-				CA667BAE25676C0A00446A92 /* CoreData.framework */,
-				CA667BAC25676C0500446A92 /* CoreMedia.framework */,
-				CA667BA725676BF000446A92 /* AVFoundation.framework */,
-				CA667BA525676BE100446A92 /* AssetsLibrary.framework */,
 				5002F99CFA6280D5FBCE3AFB /* libPods-NTESOcrSdkDemo.a */,
 			);
 			name = Frameworks;
@@ -411,7 +372,6 @@
 				CA7C39052566400000DBF515 /* LaunchScreen.storyboard in Resources */,
 				CA7C39022566400000DBF515 /* Assets.xcassets in Resources */,
 				CA7C390025663FFC00DBF515 /* Main.storyboard in Resources */,
-				CAB2B85B26CDF80000FE3149 /* NTESOcrDetect.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,10 +624,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFKBK6V32D;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XB333SWTAF;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SDK";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NTESOcrSdkDemo/NTESOcrDemoDefines.h";
@@ -681,6 +642,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.NTESOcrSdkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = neteaseGeneralProfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -691,10 +653,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFKBK6V32D;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XB333SWTAF;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SDK";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NTESOcrSdkDemo/NTESOcrDemoDefines.h";
@@ -708,6 +671,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.NTESOcrSdkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = neteaseGeneralProfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

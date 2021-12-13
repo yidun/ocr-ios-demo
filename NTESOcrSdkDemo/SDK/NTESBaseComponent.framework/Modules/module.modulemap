@@ -1,6 +1,0 @@
-framework module NTESBaseComponent {
-  umbrella header "NTESBaseComponent.h"
-
-  export *
-  module * { export * }
-}
