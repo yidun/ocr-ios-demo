@@ -27,6 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+    
     UIImageView *imageView = [[UIImageView alloc] init];
     self.imageView = imageView;
     [self.view addSubview:imageView];
@@ -37,7 +39,7 @@
     self.manager = [[NTESOcrSdkManager alloc] initWithImageView:imageView scanRect:CGRectMake((SCREEN_WIDTH - 360 * KWidthScale)/2, 240, 360 * KWidthScale, 227 * KHeightScale)];
     [self.manager setTimeoutInterval:20];
     WeakSelf(self);
-    [self.manager startDetectWithBusinessID:@"yourbusinessid" cardReverseType:(NTESCardReverseType)self.detectType completionHandler:^(NTESOcrStatus status, NSDictionary * _Nullable params) {
+    [self.manager startDetectWithBusinessID:@"请输入易盾业务ID" cardReverseType:(NTESCardReverseType)self.detectType completionHandler:^(NTESOcrStatus status, NSDictionary * _Nullable params) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [weakSelf showToastWithLiveDetectStatus:status params:params];
         });
