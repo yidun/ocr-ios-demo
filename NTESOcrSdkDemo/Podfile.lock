@@ -15,15 +15,15 @@ PODS:
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
   - Masonry (1.0.2)
-  - NTESBaseComponent (1.7)
-  - NTESOcrSDK (1.0.9):
+  - NTESBaseComponent (1.8)
+  - NTESOcrSDK (1.1.1):
     - NTESBaseComponent
-  - WHToast (0.0.7)
+  - WHToast (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.0)
   - Masonry (~> 1.0.2)
-  - NTESOcrSDK (= 1.0.9)
+  - NTESOcrSDK (= 1.1.1)
   - WHToast
 
 SPEC REPOS:
@@ -35,12 +35,12 @@ SPEC REPOS:
     - WHToast
 
 SPEC CHECKSUMS:
-  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AFNetworking: cacd04e21e78f4e11d6b7fb14bc8b6c7b8b24658
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  NTESBaseComponent: b1cdf3ac1e0b303dbba9d7099ddaff7960acdb03
-  NTESOcrSDK: fb5654598c842a97ba4ca390b2346d4963f79ec2
-  WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
+  NTESBaseComponent: 7b310e7e80bb6c27183176188b98356d200dbbc5
+  NTESOcrSDK: 3c61efcf2e20b974b9c93626502ff0219b940210
+  WHToast: 7d393091940215c2b8bcf78422d1855f9bfa3975
 
-PODFILE CHECKSUM: c19b4f3986ddb468888bdccc8c3587266107b42b
+PODFILE CHECKSUM: 592bb23bbf748c40f0ff2f2ff4a086bca52019c8
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.13.0
